@@ -1,4 +1,5 @@
  %MELODY
+ 
  Fs=8000;        % Assign a sample frequency of 8000.
  Ts=1/Fs;
  t=[0:Ts:0.35];  % Assign the duration of each notes as 0.35 seconds.
@@ -9,6 +10,7 @@
  sound(melody1, Fs)
  
  %ACCOMPANIMENT
+ 
  Fs=8000;        % Assign a sample frequency of 8000.
  Ts=1/Fs;
  t=[0:Ts:5.6];   % Assign the duration of each notes as 0.35 seconds.
